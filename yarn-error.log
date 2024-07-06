@@ -1,0 +1,54 @@
+Arguments: 
+  /Users/rosieluo/.nvm/versions/node/v16.17.1/bin/node /usr/local/bin/yarn
+
+PATH: 
+  /Users/rosieluo/.nvm/versions/node/v16.17.1/bin:/Users/rosieluo/.nvm/versions/node/v14.17.0/bin:/opt/homebrew/bin:/opt/homebrew/sbin:/Library/Frameworks/Python.framework/Versions/2.7/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Users/rosieluo/.nvm/versions/node/v14.17.0/bin:/opt/homebrew/bin:/opt/homebrew/sbin:/Library/Frameworks/Python.framework/Versions/2.7/bin
+
+Yarn version: 
+  1.22.18
+
+Node version: 
+  16.17.1
+
+Platform: 
+  darwin arm64
+
+Trace: 
+  Error: certificate has expired
+      at TLSSocket.onConnectSecure (node:_tls_wrap:1535:34)
+      at TLSSocket.emit (node:events:513:28)
+      at TLSSocket._finishInit (node:_tls_wrap:949:8)
+      at TLSWrap.ssl.onhandshakedone (node:_tls_wrap:730:12)
+
+npm manifest: 
+  {
+    "name": "fixlang",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1",
+      "fixSwitchOnline": "node fixSwitchOnline sn",
+      "fixSwitch": "node fixSwitch sn",
+      "noFindOnline": "node noFindOnline sn",
+      "noFind": "node noFind sn"
+    },
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+      "axios": "^1.6.4",
+      "cli-table": "^0.3.11",
+      "lodash": "^4.17.21",
+      "obj2str": "^0.1.2",
+      "xlsx": "^0.18.5"
+    },
+    "devDependencies": {
+      "esprima": "^4.0.1"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
